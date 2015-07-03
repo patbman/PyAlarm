@@ -53,6 +53,9 @@ cd ~/.config/pianobar && wget http://raspberrypiserver.no-ip.org/eventcommand.sh
 
 once that is finished test to see if every thing works by running the pianobar
 
+if you would like to control pianobar with your android phone in order to say stop it when the alarm goes off you just need to download the app at this link http://raspberrypiserver.no-ip.org/pianobar_remote.apk and input your information and make sure that ssh is installed on your system and then you are good to go
+
+for people that have IOS you will need to just download any ssh app from the app store and once you are logged into the system you can just run the command screen -X -S pandora kill and that will kill the alarm clock this same procedure can be done on android as well you can also use the ssh app to start the alarm clock
 
 once all your settings are set all you have to do is run the command ./alarm.sh what this will do is check to see if you 
 
