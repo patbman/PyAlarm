@@ -11,8 +11,22 @@ dependancies
 
 to make this work you will need to install screen pianobar and python easily by doing by running sudo apt-get install 
 
-screen pianobar python
+screen python
 
+#To install Pianobar
+  
+  you need to type:
+  
+    git clone https://github.com/PromyLOPh/pianobar.git
+
+    cd pianobar
+    
+    make
+    
+    make install
+    
+  and once you have done this you should have pianobar install and be able to go onto configuring it and the alarmclock files.
+    
 once that is done quickly edit both clock.py and localclock.py to have the days (below is the guide on how python reads 
 
 days) and times you would like the alarm to go off
